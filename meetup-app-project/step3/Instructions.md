@@ -1,65 +1,26 @@
-Let's start adding styles to our page.
+In this step you need to build a form for submitting request for adding new meetups and updating them.
 
-Flexbox layout is the best way to arrange elements in a flexible way. It is a great way to organize your page and make it responsive across all viewports. The breakdown is as follows:
+## What will you do?
 
-1. Make the `#gallery-container` a flex container.
+1. Make a component for form so we can reuse it both new meetups and for uodating them.
 
-   Our agenda is to make the images responsive and occupy the whole width of the page. To do that, we need to make the `#gallery-container` a `flex` container.
+2. Add proper styling and validation. You can regex expression for validation.
 
-   ```css
-   #gallery-container {
-     display: flex;
-     flex-wrap: wrap;
-   }
+3. There should be proper error messages on error inside UI.You should some popup for it.
+
+4. Form should contains atleast the following field.
+
+   ```
+   Meetup Title
+   Meetup image
+   address
+   description
    ```
 
-2. Set the `width`, `height` and `object-fit` of the images, so that they maintain the aspect ratio and occupy the whole width of the article.
+5. Should store the value of the inputs tag in a variable. In nextjs to do so we uses uesState();
 
-   ```css
-   .gallery-image {
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
-   }
+   ```javascript
+   import { useRef, useState } from "react";
+   const [title, setTitle] = useState(""); // in the function component
    ```
-
-3. Set the position of the article with `.img-container` to `relative` and set the `flex` property to `1 0 100%`. The `flex` property is a shorthand for `flex-grow`, `flex-shrink` & `flex-basis` properties combined.
-
-   ```css
-   .img-container {
-     position: relative;
-     flex: 1 0 100%;
-   }
-   ```
-
-   With this, the `flex-container` will occupy the complete width of the page.
-
-4. Make sure that `.title` is visible properly.
-
-   ```css
-   .title {
-     position: absolute;
-     bottom: 0.5em;
-     left: 0.5em;
-     font-family: "Source Sans Pro", sans-serif;
-     color: white;
-   }
-   ```
-
-5. Add the media queries so that the images are responsive across all viewports.
-
-   ```css
-   @media (min-width: 768px) {
-     .img-container {
-       flex: 1 0 50%;
-     }
-   }
-
-   @media (min-width: 1280px) {
-     .img-container {
-       flex: 1 0 33.333%;
-     }
-   }
-   ```
-
-We have finally complete the gallery and made it responsive. Next up, adding the footer!
+Check the challenges tabs to know what all you should be implementing. All the best!

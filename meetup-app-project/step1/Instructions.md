@@ -19,5 +19,7 @@ In this step the main goal is to build the frontend for how to show the list of 
     dummy.map((object)=> return <Card meetup={object}>)
     ```
 
-3. For UI you can use materialUI or TailwindCSS or framework you like.
+3. This component should only show title , image ,address and some button like update ,delete,show details(it will be covered in step2).
+4.  For UI you can use materialUI or TailwindCSS or framework you like.
 
+Check the challenges tabs to know what all you should be implementing. All the best!
