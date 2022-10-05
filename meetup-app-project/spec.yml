@@ -3,7 +3,7 @@ tags: ["Next.js","Nodejs","MongoDB","Reactjs"]
 starter-files: https://github.com/codedamn-classrooms/next-12-playground
 type: fullstack
 level: medium
-cover-image: https://raw.githubusercontent.com/codedamn-projects/ticket-master-clone/master/designs/Display.png
+cover-image: https://raw.githubusercontent.com/ritik3131/React-Meetup/master/public/meetup-landing-page.png
 short-description: Create a social networking site that allow users to search and
 decide places for meetups based on interests 
 long-description: |
@@ -31,5 +31,5 @@ codedamn:
   helper-learning-path: fullstack
   show-community-banner: true
   playground-layout: terminal-editor-browser
-  playground-image: html
+  playground-image: nextjs
   guided: true
