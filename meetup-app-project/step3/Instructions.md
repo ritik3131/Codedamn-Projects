@@ -2,9 +2,9 @@ In this step you need to build a form for submitting request for adding new meet
 
 ## What will you do?
 
-1. Make a component for form so we can reuse it both new meetups and for uodating them.
+1. Make a component for form so we can reuse it both new meetups and for updating them.
 
-2. Add proper styling and validation. You can regex expression for validation.
+2. Add proper styling and validation. You can Regular Expressions for Validation.
 
 3. There should be proper error messages on error inside UI.You should some popup for it.
 
@@ -23,4 +23,5 @@ In this step you need to build a form for submitting request for adding new meet
    import { useRef, useState } from "react";
    const [title, setTitle] = useState(""); // in the function component
    ```
-Check the challenges tabs to know what all you should be implementing. All the best!
+
+   Check the challenges tabs to know what all you should be implementing. All the best!

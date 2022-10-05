@@ -4,7 +4,7 @@ In this step the main goal is to build the frontend for how to show the list of 
 
 1. Make sure that /showDetail page is reachable from show details via a meetup component
 
-2. This should show the details of the dummy object. It should all the details of the objects like title ,who created it,when it was created ,address,image,description etc.
+2. This should show the details of the dummy object. It should all the details of the objects like title, who created it, when it was created, address, image, description etc.
 
 3. Add a map to it for the location of place.You can use library like leaflet for doing it.
 
